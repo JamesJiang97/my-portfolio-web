@@ -27,7 +27,7 @@
 }
 
 a{
-    color: #000;
+    color: var(--title-color);
 }
 
 </style>
