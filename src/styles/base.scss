@@ -81,9 +81,11 @@ img {
 
 .section {
   padding: 2rem 0 4rem;
+
   @include min-screen(768px) {
     padding: 6rem 0 2rem;
   }
+
   &__title {
     font-size: var(--h1-font-size);
     color: var(--title-color);
@@ -91,6 +93,7 @@ img {
     text-align: center;
     margin-bottom: var(--mb-0-5);
   }
+
   &__subtitle {
     display: block;
     font-size: var(--small-font-size);
@@ -98,14 +101,17 @@ img {
     text-align: center;
   }
 }
+
 .main {
   @include min-screen(768px) {
     padding: 0 1rem;
   }
+
   @include min-screen(1024px) {
     padding: 0;
   }
 }
+
 /*==================== BUTTONS ====================*/
 .button {
   display: inline-block;
@@ -114,26 +120,32 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
+
   &:hover {
     background-color: var(--first-color-alt);
   }
+
   &__icon {
     font-size: 1.2rem;
     margin-left: var(--mb-0-5);
     transition: .3s;
   }
+
   &--flex {
     display: inline-flex;
     align-items: center;
     transition: .3s;
   }
+
   &--small {
     padding: .75rem 1rem;
   }
+
   &--link {
     padding: 0;
     background-color: transparent;
     color: var(--first-color);
+
     &:hover {
       background-color: transparent;
       color: var(--first-color-alt);
