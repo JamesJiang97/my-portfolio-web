@@ -1,4 +1,5 @@
 <template>
+  <title>JiangsPage</title>
   <header class="header scroll-header">
     <AppNav></AppNav>
   </header>

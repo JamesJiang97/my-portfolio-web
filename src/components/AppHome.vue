@@ -80,7 +80,7 @@ export default {
           if(i === titleText.length-1) {
             setTimeout(()=>{
               writeText(text,type === 'write'? 'wipe' : 'write')
-            },5000)
+            },2000)
           }
         }, i * 50)
       }
@@ -94,13 +94,24 @@ export default {
 <style lang="scss" scoped>
 .home {
 
+  &__img {
+    width: 200px;
+    border-radius: 0.5rem;
+    justify-self: center;
+    align-self: center;
+    @include min-screen(768px) {
+      width: 400px;
+    }
+  }
+
   &__container {
+    margin: auto;
     height: 100vh;
     gap: 1rem;
   }
   &__content {
     position: absolute;
-    top: 20%;
+    top: 22%;
     margin-bottom: var(--mb-3);
     grid-template-columns: 0.5fr 3fr;
     align-items: center;
@@ -205,4 +216,5 @@ export default {
     font-weight: 1000;
   }
 }
+
 </style>
