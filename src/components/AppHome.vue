@@ -16,7 +16,7 @@
         </div>
 
         <div class="home__picture" id="home__picture">
-          <img src="@/assets/img/20191103.jpg" alt="" class="home__img">
+          <img src="/img/20191103.jpg" alt="" class="home__img">
 
         </div>
 
