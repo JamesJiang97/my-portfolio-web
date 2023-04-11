@@ -126,25 +126,25 @@ export default {
       },
       {
         title: 'C',
-        percentage: '80%'
+        percentage: '50%'
       },
       {
         title: 'SQL',
-        percentage: '60%'
+        percentage: '50%'
       },
     ])
     const skills_2 = ref([
       {
         title: 'HTML/CSS',
-        percentage: '55%'
+        percentage: '45%'
       },
       {
         title: 'Typescript',
-        percentage: '40%'
+        percentage: '30%'
       },
       {
         title: 'Vue',
-        percentage: '45%'
+        percentage: '35%'
       },
     ])
     const skills_3 = ref([
@@ -163,6 +163,10 @@ export default {
       {
         title: 'Heroku',
         percentage: '20%'
+      },
+      {
+        title: 'Docker',
+        percentage: '25%'
       },
     ])
 
@@ -265,53 +269,6 @@ export default {
 // .skills__open .skills__arrow {
 //   transform: rotate(-180deg);
 // }
-
-
-.fade-enter-active {
-	-webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-  animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-}
-
- @-webkit-keyframes fade-enter-active {
-  0% {
-    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-    -webkit-filter: blur(40px);
-            filter: blur(40px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
-            transform: translateY(0) scaleY(1) scaleX(1);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-filter: blur(0);
-            filter: blur(0);
-    opacity: 1;
-  }
-}
-@keyframes fade-enter-active {
-  0% {
-    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-    -webkit-filter: blur(40px);
-            filter: blur(40px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
-            transform: translateY(0) scaleY(1) scaleX(1);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-filter: blur(0);
-            filter: blur(0);
-    opacity: 1;
-  }
-}
 
 
 </style>
