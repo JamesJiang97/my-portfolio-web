@@ -231,6 +231,7 @@ export default {
     row-gap: 1.5rem;
     padding: 0 2.7rem;
     transition: 0.4s;
+    padding-bottom: 3rem;
   }
 
   &__name {
