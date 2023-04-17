@@ -1,6 +1,5 @@
 <template>
-
-<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
 
   <section class="home section" id="home">
     <div class="home__container container grid">
@@ -20,7 +19,7 @@
 
         </div>
 
-        
+
 
         <!-- <div class="home__three" id="home__three">
           <MyOfficeScene></MyOfficeScene>
@@ -69,23 +68,23 @@ export default {
     // 用于动态展示打字特效
     const titleTextArr = ref([])
     // 递归每隔500ms打一个字符，完成后隔2s再删除字符 循环
-    const writeText = (text,type) => {
+    const writeText = (text, type) => {
       for (let i = 0; i < text.length; i++) {
         setTimeout(() => {
-          if(type === 'write') {
+          if (type === 'write') {
             titleTextArr.value.push(text[i])
-          }else {
+          } else {
             titleTextArr.value.pop()
           }
-          if(i === titleText.length-1) {
-            setTimeout(()=>{
-              writeText(text,type === 'write'? 'wipe' : 'write')
-            },2000)
+          if (i === titleText.length - 1) {
+            setTimeout(() => {
+              writeText(text, type === 'write' ? 'wipe' : 'write')
+            }, 2000)
           }
         }, i * 50)
       }
     }
-    writeText(titleText,'write')
+    writeText(titleText, 'write')
     return { titleTextArr }
   },
 }
@@ -99,6 +98,7 @@ export default {
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
+
     @include min-screen(768px) {
       width: 400px;
     }
@@ -109,24 +109,29 @@ export default {
     height: 100vh;
     gap: 1rem;
   }
+
   &__content {
     position: absolute;
     top: 22%;
     margin-bottom: var(--mb-3);
     grid-template-columns: 0.5fr 3fr;
     align-items: center;
+
     @include min-screen(768px) {
       padding-top: 5.5rem;
       column-gap: 2rem;
       padding-top: 3.5rem;
     }
+
     @include min-screen(350px) {
       grid-template-columns: 0.25fr 3fr;
     }
+
     @include min-screen(568px) {
       grid-template-columns: max-content 2fr 3fr;
     }
   }
+
   &__social {
     display: grid;
     grid-template-columns: max-content;
@@ -136,6 +141,7 @@ export default {
   &__icon {
     font-size: 1.3rem;
     color: var(--first-color);
+
     &:hover {
       color: var(--first-color-alt);
     }
@@ -149,6 +155,7 @@ export default {
   &__picture {
     width: 50%;
     height: 200px;
+
     @include min-screen(568px) {
       order: 1;
       height: 340px;
@@ -157,14 +164,17 @@ export default {
 
   &__data {
     max-width: 100%;
+
     // grid-column: 0;
     @include min-screen(568px) {
       grid-column: initial;
     }
   }
+
   &__columeline {
     animation: mydeamon 2s infinite;
   }
+
   @keyframes mydeamon {
     0% {
       transform: scale(3); //scale代表闪烁的体型变化，其他倾斜等样式自行搜索
@@ -176,6 +186,7 @@ export default {
       opacity: 0;
     }
   }
+
   &__title {
     font-size: var(--big-font-size);
     margin: auto;
@@ -194,27 +205,30 @@ export default {
 
   &__scroll {
     position: absolute;
-    bottom: 3%;
-    left: 50%;
+    bottom: 2%;
+    left: 48%;
     text-align: center;
+
     a {
       flex-direction: column;
     }
+
     color: var(--first-color);
     transition: 0.3s;
+
     span {
       font-size: var(--small-font-size);
       color: var(--title-color);
       font-weight: var(--font-medium);
     }
+
     &:hover {
       transform: translateY(0.25rem);
     }
   }
+
   &__arrow {
     font-size: 2rem;
     font-weight: 1000;
   }
-}
-
-</style>
+}</style>

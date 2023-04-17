@@ -44,12 +44,9 @@ export default {
 
     "portfolio__title":"项目集",
     "portfolio__subtitle":"近期项目",
-    "portfolio1__title":"网站1",
-    "portfolio1__description":"网站采用响应式布局，适配于多种设备，具有UI组件和动画交互。",
-    "portfolio2__title":"网站2",
-    "portfolio2__description":"网站采用响应式布局，适配于多种设备，具有UI组件和动画交互。",
-    "portfolio3__title":"网站3",
-    "portfolio3__description":"网站采用响应式布局，适配于多种设备，具有UI组件和动画交互。",
+    "portfolio1__title":"Login System",
+    "portfolio1__description":"使用Spring-boot和Vue3构建的前后端分离的登录系统，使用JWT验证登录状态。",
+
 
     "contact__title":"联系方式",
     "contact__subtitle":"与我联系",

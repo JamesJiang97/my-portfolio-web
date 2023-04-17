@@ -44,12 +44,9 @@ export default {
     "qualification5__describe": "大阪大学情報科学研究科",
     "portfolio__title": "ポートフォリオ",
     "portfolio__subtitle": "最近のプロジェクト",
-    "portfolio1__title": "ウェブサイト1",
-    "portfolio1__description": "ウェブサイトはレスポンシブデザインで、さまざまなデバイスに対応しており、UIコンポーネントとアニメーションインタラクションがあります。",
-    "portfolio2__title":"网站2",
-    "portfolio2__description":"网站采用响应式布局，适配于多种设备，具有UI组件和动画交互。",
-    "portfolio3__title":"网站3",
-    "portfolio3__description":"网站采用响应式布局，适配于多种设备，具有UI组件和动画交互。",
+    "portfolio1__title": "Login System",
+    "portfolio1__description": "Spring-bootとVue3を使って構築したログインシステム、JWTを使ってログイン状態の維持を実現した。",
+
 
     "contact__title":"連絡先",
     // "contact__subtitle":"与我联系",

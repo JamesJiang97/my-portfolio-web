@@ -9,7 +9,7 @@
     <AppQualification></AppQualification>
     <AppSkills></AppSkills>
     <AppPaper></AppPaper>
-    <!-- <AppPortfolio></AppPortfolio> -->
+    <AppPortfolio></AppPortfolio>
     <AppContact></AppContact>
   </main>
   <AppFooter></AppFooter>
@@ -22,7 +22,7 @@ import AppAbout from './components/AppAbout.vue';
 import AppSkills from './components/AppSkills.vue';
 import AppQualification from './components/AppQualification.vue';
 import AppPaper from './components/AppPaper.vue';
-// import AppPortfolio from './components/AppPortfolio.vue';
+import AppPortfolio from './components/AppPortfolio.vue';
 import AppContact from './components/AppContact.vue';
 import AppFooter from './components/AppFooter.vue'
 export default {
@@ -33,7 +33,7 @@ export default {
     AppAbout,
     AppSkills,
     AppQualification,
-    // AppPortfolio,
+    AppPortfolio,
     AppPaper,
     AppContact,
     AppFooter

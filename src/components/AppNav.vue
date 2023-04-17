@@ -81,11 +81,11 @@ export default {
         href: '#paper',
         icon: 'alicon-yuzhijineng',
       },
-      // {
-      //   name: 'portfolio',
-      //   href: '#portfolio',
-      //   icon: 'alicon-wodezuopin',
-      // },
+      {
+        name: 'portfolio',
+        href: '#portfolio',
+        icon: 'alicon-wodezuopin',
+      },
       // {
       //   name: 'blog',
       //   href: 'https://cosycosy.cn',
