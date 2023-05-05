@@ -1,5 +1,6 @@
 <template>
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/shakrmedia/tuesday@v1.1.0/build/tuesday.min.css" />
 
 
   <section class="skills section" id="skills">
@@ -25,7 +26,8 @@
               <i :class="['uil','uil-angle-down','skills__arrow',skillstate[0]]"></i>
             </transition>
           </div>
-
+          
+          <transition name="list" class="animate__animated" enter-active-class="animated tdFadeInDown" leave-active-class="animated tdFadeOutUp">
           <div class="skills__list grid" v-show="skillstate[0] === 'true'">
             <div v-for="skill in skills_1" :key="skill.title">
               <div class="skills__titles">
@@ -36,6 +38,7 @@
               </div>
             </div>
           </div>
+        </transition>
 
         </div>
         <!--==================== SKILLS 2 ====================-->
@@ -55,7 +58,7 @@
               <i :class="['uil','uil-angle-down','skills__arrow',skillstate[1]]"></i>
             </transition>
           </div>
-          <!-- <transition class="animate__animated" enter-active-class="animate__fadeInDown" leave-active-class="animate__fadeOutUp"> -->
+          <transition name="list" class="animate__animated" enter-active-class="animated tdFadeInDown" leave-active-class="animated tdFadeOutUp">
             <div class="skills__list grid" key="skills_2" v-show="skillstate[1] === 'true'">
               <div v-for="skill in skills_2" :key="skill.title">
                 <div class="skills__titles">
@@ -66,7 +69,7 @@
                 </div>
               </div>
             </div>
-          <!-- </transition> -->
+          </transition>
         </div>
         <!--==================== SKILLS 3 ====================-->
         <div class="skills__content">
@@ -85,7 +88,8 @@
               <i :class="['uil','uil-angle-down','skills__arrow',skillstate[2]]"></i>
             </transition>
           </div>
-
+          
+          <transition name="list" class="animate__animated" enter-active-class="animated tdFadeInDown" leave-active-class="animated tdFadeOutUp">
           <div class="skills__list grid" v-show="skillstate[2] === 'true'">
             <div v-for="skill in skills_3" :key="skill.title">
               <div class="skills__titles">
@@ -96,6 +100,7 @@
               </div>
             </div>
           </div>
+        </transition>
         </div>
 
 
@@ -193,13 +198,19 @@ export default {
   &__container {
     padding-top: 3rem;
     row-gap: 0;
+    overflow: hidden;
+  }
+
+  &__content{
+    padding-bottom: 1.5rem;
   }
 
   &__header {
 
     display: flex;
     align-items: center;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1);
+    // margin-top: var(--mb-1-5);
     cursor: pointer;
   }
 
@@ -230,12 +241,12 @@ export default {
     font-size: var(--small-font-size);
     color: var(--text-color-light);
   }
-
+  
   &__list {
     row-gap: 1.5rem;
     padding: 0 2.7rem;
     transition: 0.4s;
-    padding-bottom: 3rem;
+    // padding-bottom: 3rem;
   }
 
   &__name {
@@ -255,20 +266,26 @@ export default {
   }
 }
 
-.skills__close .skills__list {
 
-  height: 0;
-  overflow: hidden;
-
-}
 
 .true {
   transform: rotate(-180deg);
 }
 
-// .skills__open .skills__arrow {
-//   transform: rotate(-180deg);
-// }
+.list-leave-active,
+.list-enter-active {
+  transition: max-height 1s ease;
+}
+.list-leave-to,
+.list-enter-from {
+  max-height: 0;
+}
+.list-leave-from,
+.list-enter-to {
+  max-height: 1000px;
+}
+
+
 
 
 </style>
