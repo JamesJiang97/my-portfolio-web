@@ -13,7 +13,7 @@ export default {
     "home__scroll-name": "Scroll Down",
     "about__title": "私について",
     "about__subtitle": "簡単な紹介",
-    "about__description": "大阪大学鬼塚研究室所属の修士2年生です。歴史学とNLPを研究のテーマとして取り組んでおります。また、Web技術に関心を持ち、バックエンドエンジニアを目指しています。実務入りのインターン経験があり、AtCoderもやっています。趣味は撮影と登山です。",
+    "about__description": "大阪大学の修士2年生です。NLP、LLMと歴史学を研究のテーマとして取り組んでおります。また、Web技術に関心を持ち、バックエンドエンジニアを目指しています。実務入りのインターン経験があり、AtCoderもやっています。趣味は撮影と登山です。",
     "download": "履歴書",
 
     "paper__title": "論文",
@@ -27,6 +27,8 @@ export default {
     "skill__years2": "More than 1 years",
     "skill__title3": "クラウド開発",
     "skill__years3": "More than 1 years",
+    "skill__title4": "機械学習",
+    "skill__years4": "More than 1 years",
 
     "qualification__title": "履歴",
     "qualification__subtitle": "私の履歴",

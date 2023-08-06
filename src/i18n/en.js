@@ -13,7 +13,7 @@ export default {
     "home__scroll-name": "Scroll Down",
     "about__title": "About Me",
     "about__subtitle": "Brief introduction",
-    "about__description": "I am a second-year master's student at the Onizuka Lab of Osaka University, focusing on historical studies and NLP. I am also interested in web technologies and aim to become a backend engineer. I have internship experience in the industry and participate in AtCoder. My hobbies are photography and mountain climbing.",
+    "about__description": "I am a second-year master's student in the Osaka University, focusing on NLP, LLM and historical studies. I am also interested in web technologies and aim to become a backend engineer. I have internship experience in the industry and participate in AtCoder. My hobbies are photography and mountain climbing.",
     "download": "Download CV",
     
     "paper__title": "Papers",
@@ -27,6 +27,8 @@ export default {
     "skill__years2": "More than 1 years",
     "skill__title3": "Cloud developer",
     "skill__years3": "More than 1 years",
+    "skill__title4": "Machine learning",
+    "skill__years4": "More than 1 years",
     
     "qualification__title": "Qualifications",
     "qualification__subtitle": "My background",

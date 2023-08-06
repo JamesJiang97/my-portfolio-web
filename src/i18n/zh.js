@@ -12,7 +12,7 @@ export default {
     "home__scroll-name": "向下滑",
     "about__title": "关于我",
     "about__subtitle": "简短介绍",
-    "about__description": "我是大阪大学鬼塚研究室的二年级硕士研究生，主要研究历史学和自然语言处理（NLP）。我对Web技术感兴趣，并致力于成为一名后端工程师。我具有实习经验，并参与AtCoder编程竞赛。我的爱好是摄影和登山。",
+    "about__description": "我是大阪大学的二年级硕士研究生，主要研究自然语言处理（NLP）,大语言模型（LLM）和历史学。我对Web技术感兴趣，并致力于成为一名后端工程师。我具有实习经验，并参与AtCoder编程竞赛。我的爱好是摄影和登山。",
     "download": "简历",
     
     "paper__title": "论文",
@@ -26,6 +26,8 @@ export default {
     "skill__years2": "More than 1 years",
     "skill__title3": "云开发",
     "skill__years3": "More than 1 years",
+    "skill__title4": "机器学习",
+    "skill__years4": "More than 1 years",
     
     "qualification__title": "资历",
     "qualification__subtitle": "我的背景",

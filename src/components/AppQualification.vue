@@ -19,13 +19,17 @@
       </div>
       <div class="qualification__sections">
         <!--==================== QUALIFICATION CONTENT 1 ====================-->
+
         <div id="education" v-show="curSeleced === 'education'">
           <TheQualificationItemVue :list="educationList"></TheQualificationItemVue>
         </div>
+  
         <!--==================== QUALIFICATION CONTENT 2 ====================-->
+
         <div class="qualification__content" v-show="curSeleced === 'work'">
           <TheQualificationItemVue :list="workList"></TheQualificationItemVue>
         </div>
+
       </div>
     </div>
   </section>
@@ -118,4 +122,8 @@ export default {
     }
   }
 }
+
+
+
+
 </style>
