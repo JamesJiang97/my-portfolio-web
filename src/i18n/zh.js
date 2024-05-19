@@ -6,7 +6,7 @@ export default {
     "contact": "Contact",
     "blog": "博客",
     "home__title":"Hi, I'm Jiang!",
-    "home__subtitle":"Master Student / Web Engineer",
+    "home__subtitle":"Web Engineer",
     "home__description": "热衷于新事物，渴望运用技术改变世界，享受生活",
     "home__contact": "联系我",
     "home__scroll-name": "向下滑",
@@ -39,11 +39,12 @@ export default {
     "qualification2__describe": "大阪大学情報科学研究科",
     "qualification3__title": "Research Assistant",
     "qualification3__describe": "大阪大学情報科学研究科",
-    "qualification4__title": "バックエンドエンジニア",
+    "qualification4__title": "JAVA后端工程师",
     "qualification4__describe": "intern at TeamLab, Tokyo",
     "qualification5__title": "Teaching Assistant",
     "qualification5__describe": "大阪大学情報科学研究科",
-
+    "qualification6__title": "Software Engineer",
+    "qualification6__describe": "MonotaRO Co., Ltd.",
     "portfolio__title":"项目集",
     "portfolio__subtitle":"近期项目",
     "portfolio1__title":"Login System",
@@ -55,6 +56,6 @@ export default {
     "email":"电子邮箱",
     "email__address":"jiangzhongqing AT outlook.com",
     "location":"位置",
-    "location__detail":"大阪府茨木市"
+    "location__detail":"大阪府"
     
 }

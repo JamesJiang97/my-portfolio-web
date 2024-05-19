@@ -55,7 +55,7 @@ export default {
       {
         title: 'qualification2__title',
         describe: 'qualification2__describe',
-        time: '2022~now'
+        time: '2022~2024'
       }
     ])
     const workList = ref([
@@ -72,7 +72,12 @@ export default {
       {
         title: 'qualification5__title',
         describe: 'qualification5__describe',
-        time: '2023.4~now'
+        time: '2023.4~2023.7'
+      },
+      {
+        title: 'qualification6__title',
+        describe: 'qualification6__describe',
+        time: '2024.4~now'
       }
     ])
     return { curSeleced,educationList,workList }
