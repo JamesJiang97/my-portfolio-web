@@ -40,7 +40,7 @@ export default {
     "qualification3__title": "Research Assistant",
     "qualification3__describe": "大阪大学情報科学研究科",
     "qualification4__title": "JAVA后端工程师",
-    "qualification4__describe": "intern at TeamLab, Tokyo",
+    "qualification4__describe": "intern at teamLab, Tokyo",
     "qualification5__title": "Teaching Assistant",
     "qualification5__describe": "大阪大学情報科学研究科",
     "qualification6__title": "Software Engineer",

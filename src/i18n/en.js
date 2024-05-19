@@ -13,7 +13,7 @@ export default {
     "home__scroll-name": "Scroll Down",
     "about__title": "About Me",
     "about__subtitle": "Brief introduction",
-    "about__description": "I'm an engineer who moved from China and currently work in Japan. During my university years, I majored in Physics and later pursued a Master's in Information Science at Osaka University. My graduate research focused on using natural language processing techniques for the retrieval of Classical Chinese texts. Currently, I work as an engineer with experience in backend and frontend development, deployment, and operations. I also keep an interest in large language models and machine learning.",
+    "about__description": "I'm a web developer who moved from China and currently works in Japan. During my university years, I majored in Physics and later pursued a Master's in Information Science at Osaka University. My graduate research focused on using natural language processing techniques for the retrieval of Classical Chinese texts. Currently, I work as a web developer with experience in backend and frontend development, deployment, and operations. I also keep an interest in large language models and machine learning.",
     "download": "Download CV",
     
     "paper__title": "Papers",
@@ -41,7 +41,7 @@ export default {
     "qualification3__title": "Research Assistant",
     "qualification3__describe": "Osaka University, Graduate School of Information Science and Technology",
     "qualification4__title": "Backend Engineer",
-    "qualification4__describe": "Intern at TeamLab, Tokyo",
+    "qualification4__describe": "Intern at teamLab, Tokyo",
     "qualification5__title": "Teaching Assistant",
     "qualification5__describe": "Osaka University, Graduate School of Information Science and Technology",
     "qualification6__title": "Software Engineer",
