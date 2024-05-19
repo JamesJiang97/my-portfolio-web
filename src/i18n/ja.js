@@ -7,13 +7,14 @@ export default {
     "contact": "Contact",
     "blog": "ブログ",
     "home__title": "Hi, I'm Jiang!",
-    "home__subtitle":"Web Engineer",
+    "home__subtitle":"Web Developer",
     "home__description": "新しいモノ好き、技術を用いて世界を変えたい、人生エンジョイしている",
     "home__contact": "私に連絡する",
     "home__scroll-name": "Scroll Down",
     "about__title": "私について",
     "about__subtitle": "簡単な紹介",
-    "about__description": "大阪大学の修士2年生です。NLP、LLMと歴史学を研究のテーマとして取り組んでおります。また、Web技術に関心を持ち、バックエンドエンジニアを目指しています。実務入りのインターン経験があり、AtCoderもやっています。趣味は撮影と登山です。",
+    "about__description": "中国から渡ってきたエンジニア。大学時代は物理学を専攻し、その後大阪大学情報科学研究科で情報科学修士を取得。大学院では自然言語処理技術を用いて漢文テキスト検索に関する研究に取り組んでました。現在はエンジニアとして働いています。バックエンド、フロントエンドの開発、デプロイ、運用の経験があり、LLMや機械学習にも興味を持っています。",
+
     "download": "履歴書",
 
     "paper__title": "論文",
