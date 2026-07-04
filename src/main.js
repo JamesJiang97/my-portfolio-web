@@ -1,6 +1,6 @@
 // 重置样式
 import 'normalize.css'
-import VAnimateCss from 'animate.css';
+import 'animate.css'
 
 import '@/styles/icon/iconfont.css'
 
@@ -10,11 +10,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 
-createApp(App).
-use(i18n).
-use(VAnimateCss).
-mount('#app')
-
-
-
-
+createApp(App)
+  .use(i18n)
+  .mount('#app')

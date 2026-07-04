@@ -1,7 +1,4 @@
 <template>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/5v8F+onKLmU/Jr59/JwG50Wk8XLr+JpU6d1e6Z" crossorigin="anonymous" />
-
   <nav class="nav container">
     <!-- logo -->
     <a href="#" class="nav__logo">Jiang's Page</a>

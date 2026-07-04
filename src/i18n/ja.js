@@ -3,7 +3,7 @@ export default {
     "about": "About",
     "skills": "Skills",
     "paper": "Papers",
-    // "portfolio": "ポートフォリオ",
+    "portfolio": "ポートフォリオ",
     "contact": "Contact",
     "blog": "ブログ",
     "home__title": "Hi, I'm Jiang!",

@@ -1,6 +1,3 @@
-// Import Mixins
-
-@import "mixins/_BEM.scss";
-
-@import "mixins/_media-queries.scss";
-
+// Shared Sass mixins for component styles.
+@forward "mixins/BEM";
+@forward "mixins/media-queries";
