@@ -1,9 +1,4 @@
 <template>
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdn.jsdelivr.net/gh/shakrmedia/tuesday@v1.1.0/build/tuesday.min.css" />
-
-
   <section class="skills section" id="skills">
     <h1 class="section__title">{{ $t("skills__title") }}
     </h1>
@@ -23,9 +18,7 @@
               </h1>
               <span class="skills__subtitle" i18n="skills__years2">{{ $t("skill__years1") }}</span>
             </div>
-            <transition name="rotate" type="transition">
-              <i :class="['uil', 'uil-angle-down', 'skills__arrow', skillstate[0]]"></i>
-            </transition>
+            <i :class="['uil', 'uil-angle-down', 'skills__arrow', skillstate[0]]"></i>
           </div>
 
           <transition name="list" class="animate__animated" enter-active-class="animated tdFadeInDown"
@@ -56,9 +49,7 @@
               <span class="skills__subtitle" i18n="skills__years">{{ $t("skill__years2") }}</span>
             </div>
 
-            <transition name="rotate" type="transition">
-              <i :class="['uil', 'uil-angle-down', 'skills__arrow', skillstate[1]]"></i>
-            </transition>
+            <i :class="['uil', 'uil-angle-down', 'skills__arrow', skillstate[1]]"></i>
           </div>
           <transition name="list" class="animate__animated" enter-active-class="animated tdFadeInDown"
             leave-active-class="animated tdFadeOutUp">
@@ -87,9 +78,7 @@
               <span class="skills__subtitle" i18n="skills__years">{{ $t("skill__years3") }}</span>
             </div>
 
-            <transition name="rotate" type="transition">
-              <i :class="['uil', 'uil-angle-down', 'skills__arrow', skillstate[2]]"></i>
-            </transition>
+            <i :class="['uil', 'uil-angle-down', 'skills__arrow', skillstate[2]]"></i>
           </div>
 
           <transition name="list" class="animate__animated" enter-active-class="animated tdFadeInDown"
@@ -120,9 +109,7 @@
               <span class="skills__subtitle" i18n="skills__years">{{ $t("skill__years4") }}</span>
             </div>
 
-            <transition name="rotate" type="transition">
-              <i :class="['uil', 'uil-angle-down', 'skills__arrow', skillstate[3]]"></i>
-            </transition>
+            <i :class="['uil', 'uil-angle-down', 'skills__arrow', skillstate[3]]"></i>
           </div>
 
           <transition name="list" class="animate__animated" enter-active-class="animated tdFadeInDown"

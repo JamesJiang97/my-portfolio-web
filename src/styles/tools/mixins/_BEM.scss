@@ -3,6 +3,9 @@
 /// @author Marcmintel
 /// @link https://medium.com/@marcmintel/pushing-bem-to-the-next-level-with-sass-3-4-5239d2371321
 
+@use "sass:meta";
+@use "sass:string";
+
 $elementSeparator: '__';
 
 $modifierSeparator: '--';
@@ -14,7 +17,7 @@ $modifierSeparator: '--';
 
 @function containsModifier($selector) {
     $selector: selectorToString($selector);
-    @if str-index($selector, $modifierSeparator) {
+    @if string.index($selector, $modifierSeparator) {
         @return true;
     } @else {
         @return false;
@@ -26,8 +29,8 @@ $modifierSeparator: '--';
 /// @param  {String}  $selector
 /// @return {String}  $selector
 @function selectorToString($selector) {
-    $selector: inspect($selector); //cast to string
-    $selector: str-slice($selector, 2, -2); //remove brackets
+    $selector: meta.inspect($selector); //cast to string
+    $selector: string.slice($selector, 2, -2); //remove brackets
     @return $selector;
 }
 
@@ -36,8 +39,8 @@ $modifierSeparator: '--';
 /// @return {String}
 @function getBlock($selector) {
     $selector: selectorToString($selector);
-    $modifierStart: str-index($selector, $modifierSeparator) - 1;
-    @return str-slice($selector, 0, $modifierStart);
+    $modifierStart: string.index($selector, $modifierSeparator) - 1;
+    @return string.slice($selector, 0, $modifierStart);
 }
 
 /// @param {string} $block - BEM中的Block
@@ -146,4 +149,3 @@ $modifierSeparator: '--';
         }
     }
 }
-

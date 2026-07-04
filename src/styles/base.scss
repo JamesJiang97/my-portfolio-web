@@ -1,3 +1,5 @@
+@use "./tools/sassMagic" as *;
+
 /*==================== 初始化样式 ====================*/
 * {
   box-sizing: border-box;

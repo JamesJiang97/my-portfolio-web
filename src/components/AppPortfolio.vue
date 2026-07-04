@@ -1,13 +1,10 @@
 <template>
-
-<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
-
   <section class="portfolio section" id="portfolio">
     <h2 class="section__title">{{ $t('portfolio__title') }}</h2>
     <!-- <span class="section__subtitle">{{ $t('portfolio__subtitle') }}</span> -->
 
     <div class="portfolio__container container swiper-container">
-      <swiper class="swiper" :modules="modules" :slides-per-view="1" :space-between="30" :loop="true"
+      <swiper class="swiper" :modules="modules" :slides-per-view="1" :space-between="30" :loop="portfolioList.length > 1"
         :pagination="{ clickable: true }" navigation>
         <swiper-slide v-for="(item, index) in portfolioList" :key="index">
           <div class="portfolio__content grid swiper-slide">
@@ -40,7 +37,7 @@
 </template>
 <script>
 import { defineComponent, ref } from 'vue'
-import { Pagination, Navigation } from 'swiper'
+import { Pagination, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -127,13 +124,13 @@ export default defineComponent({
   }
 }
 
-::v-deep .swiper-button-next:after,
-::v-deep .swiper-button-prev:after {
+:deep(.swiper-button-next:after),
+:deep(.swiper-button-prev:after) {
   font-size: 1.5rem;
   color: var(--first-color);
 }
 
-::v-deep .swiper-pagination-bullet-active {
+:deep(.swiper-pagination-bullet-active) {
   background-color: var(--first-color);
 }
 

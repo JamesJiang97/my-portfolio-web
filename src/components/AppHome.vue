@@ -1,6 +1,4 @@
 <template>
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
-
   <section class="home section" id="home">
     <div class="home__container container grid">
       <div class="home__content grid">

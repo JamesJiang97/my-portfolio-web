@@ -3,6 +3,7 @@ export default {
     "about": "About",
     "skills": "Skills",
     "paper": "Papers",
+    "portfolio": "项目集",
     "contact": "Contact",
     "blog": "博客",
     "home__title":"Hi, I'm Jiang!",

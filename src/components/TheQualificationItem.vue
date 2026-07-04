@@ -16,7 +16,7 @@
       </span>
       <div class="qualification__calendar">
         <i class="alicon alicon-rili"></i>
-        {{ $t(item.time || '') }}
+        {{ item.time || '' }}
       </div>
     </div>
     <template v-if="index % 2 === 0">
