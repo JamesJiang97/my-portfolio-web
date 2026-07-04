@@ -8,7 +8,7 @@ pipeline  {
         }
         stage('Install') {
             steps {
-                nodejs(nodeJSInstallationName: 'v14.13.0') {
+                nodejs(nodeJSInstallationName: 'v22.23.0') {
                     sh '''node -v
                     npm -v
                     npm i'''
@@ -17,7 +17,7 @@ pipeline  {
         }
         stage('Bulid') {
             steps {
-                nodejs(nodeJSInstallationName: 'v14.13.0') {
+                nodejs(nodeJSInstallationName: 'v22.23.0') {
                     sh '''npm run build
                     tar -zcvf dist.tar.gz dist'''
                 }
